@@ -1,0 +1,22 @@
+#--------------------------------------------------------------------
+# DATABASE — Konfigurasi koneksi MySQL CodeIgniter 4
+#--------------------------------------------------------------------
+database.default.hostname = localhost
+database.default.database = db_posyandu
+database.default.username = root
+database.default.password = 
+database.default.DBDriver  = MySQLi
+database.default.DBPrefix  = 
+database.default.port      = 3306
+
+#--------------------------------------------------------------------
+# APP
+#--------------------------------------------------------------------
+app.baseURL = 'http://localhost/posyandu/'
+app.sessionDriver = 'CodeIgniter\Session\Handlers\FileHandler'
+app.sessionSavePath = 'WRITEPATH/session'
+
+#--------------------------------------------------------------------
+# ENVIRONMENT
+#--------------------------------------------------------------------
+CI_ENVIRONMENT = development
